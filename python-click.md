@@ -33,7 +33,8 @@ click = "click_example.cli:cli"
 ```
 
 After running `poetry install`, you can now run `poetry run pytest` to run the
-(vacuous) included unit test, and `poetry run click` to run your sample script.  Installing Click is then as safe and easy as running
+(vacuous) included unit test, and `poetry run click` to run your sample script.
+Installing Click is then as safe and easy as running
 
 ```
 poetry add click
