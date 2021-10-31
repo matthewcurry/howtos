@@ -24,13 +24,29 @@ the plugin.
 
 ## Plugin recommendations
 
-* [tpope/vim-sensible](https://github.com/tpope/vim-sensible)
-* [tpope/vim-rsi](https://github.com/tpope/vim-rsi)
-* [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
-* [tpope/vim-unimpaired](https://github.com/tpope/vim-unimpaired)
-* [tpope/vim-surround](https://github.com/tpope/vim-surround)
-* [sjl/gundo.vim](https://github.com/sjl/gundo.vim)
-* [preservim/nerdtree](https://github.com/preservim/nerdtree)
-* [ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
-* [junegunn/fzf](https://github.com/junegunn/fzf)
-* [sirver/ultisnips](https://github.com/sirver/ultisnips)
+* [*tpope/vim-sensible*](https://github.com/tpope/vim-sensible) is a collection
+  of defaults that makes sense for almost all users.
+* [*tpope/vim-rsi*](https://github.com/tpope/vim-rsi) binds readline-type
+  commands (like `^A`, `^K`, etc) in insert and command modes.
+* [*tpope/vim-commentary*](https://github.com/tpope/vim-commentary) defines
+  handy bindings for commenting and uncommenting code.
+* [*tpope/vim-unimpaired*](https://github.com/tpope/vim-unimpaired) defines
+  handy toggles and "pairs" of commands, like `yod` to toggle `diffthis`, and
+  `[<Space>` and `]<Space>` for inserting blank lines before or after the
+  cursor.
+* [*tpope/vim-surround*](https://github.com/tpope/vim-surround) defines handy
+  bindings for inserting, changing, or deleting surrounding text: `ysiw"` to
+  quote a word, `cs"'` to change to single quotes, and `ds'` to remove the
+  quotes.
+* [*sjl/gundo.vim*](https://github.com/sjl/gundo.vim) provides a visualization
+  and navigation mode for the "undo tree" vim maintains.
+* [*preservim/nerdtree*](https://github.com/preservim/nerdtree) is the standard
+  "file tree" view.
+* [*ctrlpvim/ctrlp.vim*](https://github.com/ctrlpvim/ctrlp.vim) provides a
+  handy interface for searching among filenames and buffers.
+* [*junegunn/fzf*](https://github.com/junegunn/fzf) is a general command-line
+  fuzzy finder, but it provides vim functionality as well.
+* [*sirver/ultisnips*](https://github.com/sirver/ultisnips) supports inserting
+  (perhaps templated, language-aware) snippets.  There are many snippets
+  libraries available, including
+  [honza/vim-snippets](https://github.com/honza/vim-snippets)
